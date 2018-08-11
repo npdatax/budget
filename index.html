@@ -1,10 +1,11 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="n.ico">
+    <link rel="shortcut icon" type="image/ico" href="img/alu.ico"/>
     <meta name="title" content="NDA">
     <meta itemprop="name" content="NDA">
     <meta property="og:title" content="NDA">
@@ -14,19 +15,21 @@
           content="NDA">
     <meta id="meta-tag-description" property="og:description"
           content="NDA">
-   
 
 
     <title>NDA</title>
+
+
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
           integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/introduce.css" />
 
-
-   
+ 
     
 
 
@@ -34,33 +37,64 @@
 <body>
 
 <!--About Us -->
-
-
+    
+<div id="about">
+  <div class = "hd">
+    <h1> <a href="https://www.npdatax.github.io"><span class="fa fa-bank" style="font-size:50px;color:green"></span></a>
+     <h1> <span class="fa fa-group" style="color:green"></span> National Budget and Expenditure <span class="fa fa-pencil-square" style="color:green"></span> </h1>
+  </div>
+</div>   
+    
+    
 <div id="aboutUs">
     <div class="container">
         <div class="row">
-            <div class="page-header"><h1>About Budget </h1></div>
+            <div class="page-header"><h3> Budget </h3></div> 
             <div class="col-md-7">
-                <p>     
-                    We are greatly excited with the new enthusiasm to inspire beginners in Data Science. Nepal Data Awareness is self motivated philanthrophic movement where interested people can study, discuss and move forward by following our training syllabus. Each topics in training syllabus are designed  with recomended free lectures from online courses form cursera, edx, udacity etc. as well as informative tutorials and assignment projects. This is a self pased syllabus. You can study as much as you pay your time. You can update your progress in google sheet and your github repo (if you want but not mandatory). 
+                <p>
+                    Welcome to Network and Complex System Lab. Our main goal in this project is to make you familiar with 
+                    Application of Data Science Tools and Machine Learning Algorithms to study Network and Complex System. 
+                    We will use NetworkX package in Python for small network, Neo4J as BigData tool for large network and 
+                    Javascript (D3.js) as our network Visualization tool.
+                    
                 </p>
-                 <p>
-                    We are using slack as our discussion platform which will help you to solve your problem from your peers. Since there are more then two hundred participants, it is not possible to track everybody's progress but we do have automated progress report tracker designed in google script using your progress sheet. Once you feel confident with the subject matter, you can participate in our interesting projects based on open and simulated data. These projects are design just for learning purpose with our slogan <b> learn and rock!</b> 
-
-                </p>
-                 <p>
-                    Data Science is growing to become a huge demand in comming future. Almost all sectors for example Technology, Entertainment, Education, Healthcare, Business etc are evolving with new ideas in Artificial Intelligence(AI), BigData, Virtual Reality(VR), Internet of Thing (IoT), Blockchain, Quantum Computing, Personalized Medicine etc.
-		        </p>
-		         <p>
-                    If you are a beginner in this field and wondering how to start with, Nepal Data Awareness could be your starting platform to get introduced with Data Science. Nepal Data Awareness is a mission to teach more and more people about data science in national, social and economic domain.All data being used in our projects are open data and simulated data. We will put all our processed data and model open to the public. We are not any school, collage or institution and also not responsible for any data security.  
-                </p>
+                 <ul>
+                    <li> Get familiar with NetworkX  </li>
+                    <li> Get familiar with Neo4j  </li>
+                     <li> Get familiar with D3.js  </li>
+                </ul>
+                
+                <p>
+                <h3> Data Structures </h3> 
+                This is a toy model over a simulated data under a typical 
+                     bureaucratic and political scenario.
+                    The model will use the method of Deep learning (Machine learning) and network embedding method to train
+                     over the data and produce a
+                    prediction algorithm. THis model is completed in two part.
+                   <ul>
+                       <li> In the first part, the data simulator will
+                           create the hypothetical network data and the model will 
+                           systematically study(training a model)  the networking and activities of the member 
+                    up to the nth degree(based on computational power available) of relationship in the graph. 
+                    For example, a politician's relative/friends get
+                    an abrupt increase in property value will add the probability to the politician be corrupted.
+                     THis model 
+                       assumes that all member's property is accounted at the beginning and runs the simulation for 
+                           next 10 years
+                     where as in the runtime the algorithm is built.</li> 
+                       <li> In the second run of the simulation, them model accuracy will be tested. It will start 
+                           the detection of corrupted persion from the simulated network.</li>
+                </ul>
+                 <p>   
+                    
+                
             </div>
             <div class="col-md-4 col-md-offset-1">
-                <h2> View Tax Trees</h2>
+                <h2>View Networks</h2>
                 <ul>
-                    <li> <a href="allocation.html" target="_blank"> Budget Allocation </a> </li>
-                    <li> <a href="taxdendro.html" target="_blank"> Tax 2018 Dendrogram </a> </li>
-                    <li> <a href="taxtree.html" target="_blank"> Tax 2018 Tree </a></li>
+                    <li> <a href="samples/allocation.html" target="_blank"> Budget Allocation </a> </li>
+                    <li> <a href="samples/taxdendro.html" target="_blank"> Tax 2018 Dendrogram </a> </li>
+                    <li> <a href="samples/taxtree.html" target="_blank"> Tax 2018 Tree </a></li>
                 </ul>
             </div>
         </div>
@@ -68,6 +102,9 @@
 </div>
 
 
+    
+ 
+    
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -80,3 +117,5 @@
 
 </body>
 </html>
+
+
